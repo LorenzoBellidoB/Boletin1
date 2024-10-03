@@ -18,8 +18,5 @@ public class Ejercicio9 {
 		
 		return res;
 	}
-	
-	public static void main(String[] args) {
-		System.out.println(binario(5));
-	}
+
 }
