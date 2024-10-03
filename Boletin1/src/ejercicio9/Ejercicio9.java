@@ -13,10 +13,13 @@ public class Ejercicio9 {
 	            res = "1";
 	        } else {
 	            res = binario(num / 2) + (num % 2);
-	            System.out.println(res);
+	            
 	        }
 		
 		return res;
 	}
 
+	public static void main(String[] args) {
+		System.out.println(binario(240));
+	}
 }
