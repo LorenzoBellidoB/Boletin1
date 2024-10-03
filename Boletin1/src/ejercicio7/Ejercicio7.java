@@ -16,7 +16,7 @@ public class Ejercicio7 {
 		case 2 ->{
 			if(dia <= 28 && dia > 0 && anho > 0) {
 				res = true;
-			}else if(dia <= 29 && dia > 0 && Year.isLeap(anho)) {
+			}else if(dia <= 29 && dia > 0 && Year.isLeap(anho) && anho > 0) {
 				res = true;
 			}
 		}
